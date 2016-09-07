@@ -29,5 +29,9 @@ namespace ShoppingList_Team2_Master.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<ShoppingList_Team2_Master.Models.ListModel> ListModels { get; set; }
+
+        public System.Data.Entity.DbSet<ShoppingList_Team2_Master.Models.ShoppingListItemModel> ShoppingListItemModels { get; set; }
     }
 }
