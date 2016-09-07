@@ -12,7 +12,8 @@ namespace ShoppingList_Team2_Master.Models
           
      public class ShoppingListItemModel
      {          
-          
+          public int ID { get; set; }
+
           public int ListId { get; set; }
 
           public string Name { get; set; }
@@ -34,5 +35,7 @@ namespace ShoppingList_Team2_Master.Models
           {
                return $"[{ListId} {Name}";
           }
+
+        public ListModel List { get; set; }
      }
 }
