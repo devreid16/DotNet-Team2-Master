@@ -244,5 +244,5 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 
-# Windows Desktop.ini
-Desktop.ini
+# Windows desktop.ini
+desktop.ini
