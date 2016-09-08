@@ -7,13 +7,13 @@ namespace ShoppingList_Team2_Master.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class ShoppingListItemModelsController : IMigrationMetadata
+    public sealed partial class userIdInttoString : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(ShoppingListItemModelsController));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(userIdInttoString));
         
         string IMigrationMetadata.Id
         {
-            get { return "201609072007074_ShoppingListItemModelsController"; }
+            get { return "201609081417079_userIdInttoString"; }
         }
         
         string IMigrationMetadata.Source
