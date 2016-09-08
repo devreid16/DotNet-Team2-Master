@@ -221,9 +221,9 @@
     <Compile Include="Migrations\201609072004159_ListModelsController.Designer.cs">
       <DependentUpon>201609072004159_ListModelsController.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201609072007074_ShoppingListItemModelsController.cs" />
-    <Compile Include="Migrations\201609072007074_ShoppingListItemModelsController.Designer.cs">
-      <DependentUpon>201609072007074_ShoppingListItemModelsController.cs</DependentUpon>
+    <Compile Include="Migrations\201609081417079_userIdInttoString.cs" />
+    <Compile Include="Migrations\201609081417079_userIdInttoString.Designer.cs">
+      <DependentUpon>201609081417079_userIdInttoString.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -320,8 +320,8 @@
     <EmbeddedResource Include="Migrations\201609072004159_ListModelsController.resx">
       <DependentUpon>201609072004159_ListModelsController.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201609072007074_ShoppingListItemModelsController.resx">
-      <DependentUpon>201609072007074_ShoppingListItemModelsController.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201609081417079_userIdInttoString.resx">
+      <DependentUpon>201609081417079_userIdInttoString.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
