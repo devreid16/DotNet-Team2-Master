@@ -210,6 +210,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ListModelsController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ShoppingListItemModelsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -224,6 +225,18 @@
     <Compile Include="Migrations\201609081417079_userIdInttoString.cs" />
     <Compile Include="Migrations\201609081417079_userIdInttoString.Designer.cs">
       <DependentUpon>201609081417079_userIdInttoString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609091414427_removeContentFromShoppingListItem.cs" />
+    <Compile Include="Migrations\201609091414427_removeContentFromShoppingListItem.Designer.cs">
+      <DependentUpon>201609091414427_removeContentFromShoppingListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609091440206_editEnumValues.cs" />
+    <Compile Include="Migrations\201609091440206_editEnumValues.Designer.cs">
+      <DependentUpon>201609091440206_editEnumValues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609091453053_editShoppingListItemModelsHideFields.cs" />
+    <Compile Include="Migrations\201609091453053_editShoppingListItemModelsHideFields.Designer.cs">
+      <DependentUpon>201609091453053_editShoppingListItemModelsHideFields.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -302,6 +315,11 @@
     <Content Include="Views\ListModels\Details.cshtml" />
     <Content Include="Views\ListModels\Edit.cshtml" />
     <Content Include="Views\ListModels\Index.cshtml" />
+    <Content Include="Views\ShoppingListItemModels\Create.cshtml" />
+    <Content Include="Views\ShoppingListItemModels\Delete.cshtml" />
+    <Content Include="Views\ShoppingListItemModels\Details.cshtml" />
+    <Content Include="Views\ShoppingListItemModels\Edit.cshtml" />
+    <Content Include="Views\ShoppingListItemModels\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -324,6 +342,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201609081417079_userIdInttoString.resx">
       <DependentUpon>201609081417079_userIdInttoString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609091414427_removeContentFromShoppingListItem.resx">
+      <DependentUpon>201609091414427_removeContentFromShoppingListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609091440206_editEnumValues.resx">
+      <DependentUpon>201609091440206_editEnumValues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609091453053_editShoppingListItemModelsHideFields.resx">
+      <DependentUpon>201609091453053_editShoppingListItemModelsHideFields.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
